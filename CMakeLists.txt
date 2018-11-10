@@ -106,9 +106,17 @@ endif()
 
 add_executable(pai
     # Header Files
+    include/pai/entity.h
+    include/pai/game.h
+    include/pai/ground.h
+    include/pai/player.h
 
     # Implementation Files
     src/main.cpp
+    src/game.cpp
+    src/entity.cpp
+    src/ground.cpp
+    src/player.cpp
 )
 
 #OPENEXR_INCLUDE_DIRS
